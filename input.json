@@ -1,0 +1,31 @@
+{
+    "parameters" : {
+        "l" : 1.5,
+        "a" : 0.4,
+        "h" : 0.4,
+        "g" : 9.8
+    },
+    "solverParameters" : {
+        "abserr" : 1.0e-8,
+        "relerr" : 1.0e-6, 
+        "soln_path" : 0, 
+        "stoptime" : 10, 
+        "fps": 30   
+    },
+    "animationParameters" : {
+        "rstride" : 15,
+        "cstride" : 5,
+        "nsample" : 45,
+        "dpi" : 300,
+        "transparency" : 0.8
+    },
+    "initialState" : {
+        "theta" : 0,
+        "phi" : 0.2,
+        "psi" : 0, 
+        "thetaVel": 0, 
+        "phiVel": 0, 
+        "psiVel": 2950
+    }
+}
+
